@@ -1,0 +1,21 @@
+(********************************************************************
+ * COPYRIGHT --  Automation Resources Group
+ ********************************************************************
+ * Library: Temp_Lib
+ * File: Temp_Lib.var
+ * Author: Administrator
+ * Created: July 16, 2010
+ ********************************************************************
+ * Constants of library Temp_Lib
+ ********************************************************************)
+(*Constants*)
+VAR CONSTANT
+	TC_ST_OFF : UINT := 0;
+	TC_ST_ON : UINT := 10;
+	TC_ST_TUNE : UINT := 20;
+	TC_ST_TUNEDONE : UINT := 25;
+	TC_ST_ERROR : UINT := 999;
+	TC_STATUS_FUB_DISABLED : UINT := 65534;
+	TEMPMODE_HEAT : USINT := 0;
+	TEMPMODE_COOL : USINT := 1;
+END_VAR
