@@ -1,13 +1,11 @@
-(********************************************************************
- * COPYRIGHT --  Automation Resources Group
- ********************************************************************
- * Library: TempLib
+(*
  * File: TempSensor.typ
- * Author: David
- * Created: January 13, 2011
- ********************************************************************
- * Data types of library TempLib
- ********************************************************************)
+ * Copyright (c) 2023 Loupe
+ * https://loupe.team
+ * 
+ * This file is part of TempLib, licensed under the MIT License.
+ *
+ *)
 
 TYPE
 	TempSensor_OUT_typ : 	STRUCT 

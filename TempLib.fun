@@ -1,13 +1,12 @@
-(********************************************************************
- * COPYRIGHT --  Automation Resources Group
- ********************************************************************
- * Library: TempLib
+(*
  * File: TempLib.fun
- * Author: Administrator
- * Created: July 16, 2010
- ********************************************************************
- * Functions and function blocks of library TempLib
- ********************************************************************)
+ * Copyright (c) 2023 Loupe
+ * https://loupe.team
+ * 
+ * This file is part of TempLib, licensed under the MIT License.
+ *
+ *)
+
 
 FUNCTION TempSensorFn_Cyclic : BOOL (*Handles analog temperature sensors*)
 	VAR_IN_OUT

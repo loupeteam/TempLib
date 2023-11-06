@@ -1,11 +1,11 @@
-(********************************************************************
- * COPYRIGHT --  Automation Resources Group
- ********************************************************************
- * Library: Temp_Lib
+(*
  * File: TempControllerFn_Cyclic.st
- * Author: blackburnd
- * Created: April 02, 2009
- *******************************************************************)
+ * Copyright (c) 2023 Loupe
+ * https://loupe.team
+ * 
+ * This file is part of TempLib, licensed under the MIT License.
+ *
+ *)
 
 
 (****************************************************************************************************)

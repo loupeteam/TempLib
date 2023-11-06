@@ -1,13 +1,11 @@
-(********************************************************************
- * COPYRIGHT --  Automation Resources Group
- ********************************************************************
- * Library: Temp_Lib
+(*
  * File: TempRamp.typ
- * Author: David
- * Created: July 21, 2010
- ********************************************************************
- * Data types of library Temp_Lib
- ********************************************************************)
+ * Copyright (c) 2023 Loupe
+ * https://loupe.team
+ * 
+ * This file is part of TempLib, licensed under the MIT License.
+ *
+ *)
 
 TYPE
 	TempRamp_ST_enum : 
@@ -25,17 +23,17 @@ TYPE
 	END_STRUCT;
 	TempRamp_OUT_typ : 	STRUCT 
 		STAT : TempRamp_OUT_STAT_typ;
-		RampedSetTemp : REAL; (*Ramped set temperature [°C]*)
+		RampedSetTemp : REAL; (*Ramped set temperature [ï¿½C]*)
 	END_STRUCT;
 	TempRamp_IN_CFG_typ : 	STRUCT 
-		RampRateUp : REAL; (*Temperature ramp rate for increasing temperature [°C/s]*)
-		RampRateDown : REAL; (*Temperature ramp rate for decreasing temperature [°C/s]*)
-		MinTemp : REAL; (*Minimum output temperature [°C]*)
-		MaxTemp : REAL; (*Maximum output temperature [°C]*)
+		RampRateUp : REAL; (*Temperature ramp rate for increasing temperature [ï¿½C/s]*)
+		RampRateDown : REAL; (*Temperature ramp rate for decreasing temperature [ï¿½C/s]*)
+		MinTemp : REAL; (*Minimum output temperature [ï¿½C]*)
+		MaxTemp : REAL; (*Maximum output temperature [ï¿½C]*)
 	END_STRUCT;
 	TempRamp_IN_PAR_typ : 	STRUCT 
-		SetTemp : REAL; (*Set temperature [°C]*)
-		ActTemp : REAL; (*Actual temperature (this will serve as the starting point for the ramp upon enable) [°C]*)
+		SetTemp : REAL; (*Set temperature [ï¿½C]*)
+		ActTemp : REAL; (*Actual temperature (this will serve as the starting point for the ramp upon enable) [ï¿½C]*)
 	END_STRUCT;
 	TempRamp_IN_CMD_typ : 	STRUCT 
 		Enable : BOOL; (*Enable temperature setpoint ramping*)

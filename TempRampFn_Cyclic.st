@@ -1,13 +1,11 @@
-(********************************************************************
- * COPYRIGHT --  Automation Resources Group 
- ********************************************************************
- * Library: Temp_Lib
- * File: TempRampFnCyclic.st
- * Author: David
- * Created: July 21, 2010
- ********************************************************************
- * Implementation of library Temp_Lib
- ********************************************************************) 
+(*
+ * File: TempRampFn_Cyclic.st
+ * Copyright (c) 2023 Loupe
+ * https://loupe.team
+ * 
+ * This file is part of TempLib, licensed under the MIT License.
+ *
+ *)
 
 
 (********************************************************************)	

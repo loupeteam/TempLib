@@ -1,13 +1,11 @@
-(********************************************************************
- * COPYRIGHT -- Automation Resources Group
- ********************************************************************
- * Library: TempLib
+(*
  * File: TempSensorFn_Cyclic.st
- * Author: David
- * Created: December 07, 2010
- ********************************************************************
- * Implementation of library TempLib
- ********************************************************************) 
+ * Copyright (c) 2023 Loupe
+ * https://loupe.team
+ * 
+ * This file is part of TempLib, licensed under the MIT License.
+ *
+ *)
 
 
 (********************************************************************)
