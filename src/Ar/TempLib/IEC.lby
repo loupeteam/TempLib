@@ -4,7 +4,6 @@
   <Files>
     <File>TempLib.html</File>
     <File>TempLib.md</File>
-    <File>VersionHistory.txt</File>
     <File Description="Exported data types">TempLib.typ</File>
     <File Description="Exported constants">TempLib.var</File>
     <File Description="Exported functions and function blocks">TempLib.fun</File>
