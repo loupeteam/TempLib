@@ -33,7 +33,7 @@ TYPE
 		rdyToCool : BOOL; (*TempTune rdyToCool*)
 		rdyToCoolEnd : BOOL; (*TempTune rdyToCoolEnd*)
 		State : DINT; (*Tuning state. See TempTune FUB help for details.*)
-		FilteredTempGradient : REAL; (*Filtered actual temperature gradient [�C/s]. Only available when IN.PAR.EnableExtendedTuneStatus is TRUE.*)
+		FilteredTempGradient : REAL; (*Filtered actual temperature gradient [°C/s]. Only available when IN.PAR.EnableExtendedTuneStatus is TRUE.*)
 		FilteredActTemp : REAL; (*Filtered actual temperature [°C]. Only available when IN.PAR.EnableExtendedTuneStatus is TRUE.*)
 	END_STRUCT;
 	TempController_OUT_STAT_typ : 	STRUCT 

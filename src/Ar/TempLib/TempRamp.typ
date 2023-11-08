@@ -26,8 +26,8 @@ TYPE
 		RampedSetTemp : REAL; (*Ramped set temperature [°C]*)
 	END_STRUCT;
 	TempRamp_IN_CFG_typ : 	STRUCT 
-		RampRateUp : REAL; (*Temperature ramp rate for increasing temperature [�C/s]*)
-		RampRateDown : REAL; (*Temperature ramp rate for decreasing temperature [�C/s]*)
+		RampRateUp : REAL; (*Temperature ramp rate for increasing temperature [°C/s]*)
+		RampRateDown : REAL; (*Temperature ramp rate for decreasing temperature [°C/s]*)
 		MinTemp : REAL; (*Minimum output temperature [°C]*)
 		MaxTemp : REAL; (*Maximum output temperature [°C]*)
 	END_STRUCT;
