@@ -34,11 +34,11 @@ TYPE
 		rdyToCoolEnd : BOOL; (*TempTune rdyToCoolEnd*)
 		State : DINT; (*Tuning state. See TempTune FUB help for details.*)
 		FilteredTempGradient : REAL; (*Filtered actual temperature gradient [�C/s]. Only available when IN.PAR.EnableExtendedTuneStatus is TRUE.*)
-		FilteredActTemp : REAL; (*Filtered actual temperature [�C]. Only available when IN.PAR.EnableExtendedTuneStatus is TRUE.*)
+		FilteredActTemp : REAL; (*Filtered actual temperature [°C]. Only available when IN.PAR.EnableExtendedTuneStatus is TRUE.*)
 	END_STRUCT;
 	TempController_OUT_STAT_typ : 	STRUCT 
-		ActTemp : REAL; (*Actual temperature [�C]*)
-		SetTemp : REAL; (*Set temperature [�C]*)
+		ActTemp : REAL; (*Actual temperature [°C]*)
+		SetTemp : REAL; (*Set temperature [°C]*)
 		TempDeviation : REAL; (*Temperature deviation from setpoint*)
 		Tuning : TempCont_OUT_STAT_Tuning_typ;
 		Error : BOOL; (*There is an error with the temperature controller*)
@@ -51,8 +51,8 @@ TYPE
 		STAT : TempController_OUT_STAT_typ; (*Status*)
 	END_STRUCT;
 	TempController_IN_PAR_typ : 	STRUCT 
-		SetTemp : REAL; (*Set temperature [�C]*)
-		ActTemp : REAL; (*Actual temperature [�C]*)
+		SetTemp : REAL; (*Set temperature [°C]*)
+		ActTemp : REAL; (*Actual temperature [°C]*)
 		Y_man : REAL; (*Manual output percentage value*)
 		Mode : UDINT; (*Controller mode (LCRTEMPPID_MODE_AUTO or LCRTEMPPID_MODE_MAN)*)
 		Settings : lcrtemp_set_typ; (*Control settings.  See LoopConR library help for additional information.*)

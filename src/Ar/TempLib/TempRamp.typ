@@ -23,17 +23,17 @@ TYPE
 	END_STRUCT;
 	TempRamp_OUT_typ : 	STRUCT 
 		STAT : TempRamp_OUT_STAT_typ;
-		RampedSetTemp : REAL; (*Ramped set temperature [�C]*)
+		RampedSetTemp : REAL; (*Ramped set temperature [°C]*)
 	END_STRUCT;
 	TempRamp_IN_CFG_typ : 	STRUCT 
 		RampRateUp : REAL; (*Temperature ramp rate for increasing temperature [�C/s]*)
 		RampRateDown : REAL; (*Temperature ramp rate for decreasing temperature [�C/s]*)
-		MinTemp : REAL; (*Minimum output temperature [�C]*)
-		MaxTemp : REAL; (*Maximum output temperature [�C]*)
+		MinTemp : REAL; (*Minimum output temperature [°C]*)
+		MaxTemp : REAL; (*Maximum output temperature [°C]*)
 	END_STRUCT;
 	TempRamp_IN_PAR_typ : 	STRUCT 
-		SetTemp : REAL; (*Set temperature [�C]*)
-		ActTemp : REAL; (*Actual temperature (this will serve as the starting point for the ramp upon enable) [�C]*)
+		SetTemp : REAL; (*Set temperature [°C]*)
+		ActTemp : REAL; (*Actual temperature (this will serve as the starting point for the ramp upon enable) [°C]*)
 	END_STRUCT;
 	TempRamp_IN_CMD_typ : 	STRUCT 
 		Enable : BOOL; (*Enable temperature setpoint ramping*)
